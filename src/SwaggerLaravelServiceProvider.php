@@ -8,7 +8,7 @@ use SwaggerLume\Console\PublishViewsCommand;
 use SwaggerLume\Console\PublishConfigCommand;
 use Illuminate\Support\ServiceProvider as BaseProvider;
 
-class ServiceProvider extends BaseProvider
+class SwaggerLaravelServiceProvider extends BaseProvider
 {
     /**
      * Indicates if loading of the provider is deferred.

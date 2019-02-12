@@ -39,7 +39,7 @@
       "extra": {
         "laravel": {
             "providers": [
-                "SwaggerLume\\ServiceProvider"
+                "SwaggerLume\\SwaggerLaravelServiceProvider"
             ]
         }
     }
