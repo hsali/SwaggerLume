@@ -1,5 +1,5 @@
 {
-  "name": "darkaonline/swagger-lume",
+  "name": "hsali/swagger-lume",
   "description": "Swagger integration to Lumen 5",
   "keywords": ["lumen", "laravel", "swagger"],
   "license": "MIT",
@@ -35,5 +35,12 @@
     }
   },
   "minimum-stability": "dev",
-  "prefer-stable": true
+  "prefer-stable": true,
+      "extra": {
+        "laravel": {
+            "providers": [
+                "SwaggerLume\\ServiceProvider"
+            ]
+        }
+    }
 }
